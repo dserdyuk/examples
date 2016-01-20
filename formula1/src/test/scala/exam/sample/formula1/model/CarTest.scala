@@ -1,4 +1,4 @@
-package exam.sample.fomula1.model
+package exam.sample.formula1.model
 
 import org.specs2.mock.Mockito
 import org.specs2.mutable.SpecificationWithJUnit

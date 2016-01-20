@@ -1,6 +1,6 @@
-package exam.sample.fomula1
+package exam.sample.formula1
 
-import exam.sample.fomula1.model.Track
+import exam.sample.formula1.model.Track
 
 
 object Formula1Game extends App {

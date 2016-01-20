@@ -132,7 +132,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>exam.sample.fomula1.Formula1Game</mainClass>
+                            <mainClass>exam.sample.formula1.Formula1Game</mainClass>
                         </manifest>
                         <manifestEntries>
                             <Specification-Title>${project.name}</Specification-Title>
@@ -154,7 +154,7 @@
                     <arguments>
                         <argument>-classpath</argument>
                         <classpath />
-                        <argument>exam.sample.fomula1.Formula1Game</argument>
+                        <argument>exam.sample.formula1.Formula1Game</argument>
                         <argument>${trackLen}</argument>
                         <argument>${teamNumber}</argument>
                     </arguments>

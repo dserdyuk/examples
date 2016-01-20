@@ -1,4 +1,4 @@
-package exam.sample.fomula1.model
+package exam.sample.formula1.model
 
 import org.slf4j.LoggerFactory
 
@@ -24,7 +24,7 @@ class Car(val startPosition: Int, startDistance: Double) {
   private var _speed = 0.0
   private var _distance = startDistance
 
-  protected[fomula1] def updateOnTick(updatePeriodInSec: Int) = {
+  protected[formula1] def updateOnTick(updatePeriodInSec: Int) = {
     _distance = _distance + _speed * updatePeriodInSec + acceleration * (updatePeriodInSec * updatePeriodInSec) / 2.0
     _speed = Math.min(_speed + updatePeriodInSec * acceleration, topSpeed)
   }
