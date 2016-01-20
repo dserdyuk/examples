@@ -1,0 +1,12 @@
+# Scala-IDE
+.scala_dependencies
+
+# maven
+*/target
+
+
+# IDEA User Configuration
+*.iml
+*.iws
+.idea/
+
